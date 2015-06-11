@@ -1,0 +1,30 @@
+{
+  "name": "fis-parser-jade-runtime",
+  "description": "编译jade模板文件为浏览器客户端支持的js模板文件，依赖jade提供的runtime.js",
+  "main": "index.js",
+  "version": "0.0.2",
+  "dependencies": {
+    "jade": "^1.10.0"
+  },
+  "scripts": {
+    "test": "uz -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gavinning/fis-parser-jade-runtime.git"
+  },
+  "keywords": [
+    "uz",
+    "fis",
+    "fis jade",
+    "fis parser jade",
+    "fis parser jade runtime",
+    "fis-parser-jade-runtime"
+  ],
+  "author": "gavinning",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/gavinning/fis-parser-jade-runtime/issues"
+  },
+  "homepage": "https://github.com/gavinning/fis-parser-jade-runtime"
+}
