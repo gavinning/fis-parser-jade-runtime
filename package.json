@@ -2,7 +2,7 @@
   "name": "fis-parser-jade-runtime",
   "description": "编译jade模板文件为浏览器客户端支持的js模板文件，依赖jade提供的runtime.js",
   "main": "index.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "jade": "^1.10.0"
   },

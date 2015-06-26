@@ -17,6 +17,10 @@ npm i fis-parser-jade-runtime -g
 
 ```
 fis.config.merge({
+    pack:{
+        // 合并模板文件
+        '/static/tpl.js': /\/widget\/(.*)\.(jade)$/i
+    },
     ext: {
         jade: 'jade'
     },
@@ -36,7 +40,7 @@ fis.config.merge({
                 isMod: true,
                 // id是标准路径，防止和js文件冲突
                 id: '$&',
-                // 可以自行配置发布路径
+                // 可以自行配置发布路径，也可以注释掉不发布只合并
                 release: '${statics}/$&'
             }
         ]
